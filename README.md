@@ -4,6 +4,10 @@ This repository is an extension of the official code for the paper: **"Mixing Me
 
 The original work by Yoav Gur-Arieh, Mor Geva, and Atticus Geiger introduced a framework for studying how large language models retrieve bound entities in-context, distinguishing positional, lexical, and reflexive retrieval mechanisms. While the original work focused exclusively on Transformer models utilizing RoPE positional embeddings, our project expands this interpretability framework to investigate alternative positional encodings and hybrid state-space architectures. 
 
+<p align="center">
+  <img width="864" height="830" alt="mechs_fig1" src="https://github.com/user-attachments/assets/e3ac9cdf-add7-4f02-96d0-f2b75e359651" />
+</p>
+
 ### Our Additions & Extensions
 Building upon the original interchange intervention framework, we have introduced several key additions:
 
@@ -14,9 +18,6 @@ Building upon the original interchange intervention framework, we have introduce
 
 - **100-Entity Scalability Testing:** We scaled the original 20-entity binding task up to 100 bound entities to probe model capacity, representation collapse, and routing adaptations under heavy context loads.
 
-<p align="center">
-  <img width="864" height="830" alt="mechs_fig1" src="https://github.com/user-attachments/assets/e3ac9cdf-add7-4f02-96d0-f2b75e359651" />
-</p>
 
 ### Files
 The codebase includes the original framework alongside our new experimental pipelines:
