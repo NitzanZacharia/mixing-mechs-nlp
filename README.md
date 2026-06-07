@@ -2,10 +2,6 @@
 
 This repository is an extension of the official code for the paper: **"Mixing Mechanisms: How Language Models Retrieve Bound Entities In-Context"** ([arXiv:2510.06182](https://arxiv.org/abs/2510.06182)).
 
-<p align="center">
-  <img width="864" height="830" alt="mechs_fig1" src="https://github.com/user-attachments/assets/e3ac9cdf-add7-4f02-96d0-f2b75e359651" />
-</p>
-
 The original work by Yoav Gur-Arieh, Mor Geva, and Atticus Geiger introduced a framework for studying how large language models retrieve bound entities in-context, distinguishing positional, lexical, and reflexive retrieval mechanisms. While the original work focused exclusively on Transformer models utilizing RoPE positional embeddings, our project expands this interpretability framework to investigate alternative positional encodings and hybrid state-space architectures. 
 
 ### Our Additions & Extensions
